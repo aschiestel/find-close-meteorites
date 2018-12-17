@@ -2,6 +2,11 @@
 
 ## Running
 
-This project requires python3 and urllib.request and json packages
+This project requires python3 and the requests package.
 
-`python3 find_meteors.py`
+First, install pipenv. Then:
+
+```
+pipenv install
+pipenv run python find_meteors.py
+```
